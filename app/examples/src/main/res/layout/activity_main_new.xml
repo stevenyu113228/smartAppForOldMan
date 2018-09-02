@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/weekview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="88dp"
+        android:text="(三)"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/settingButton"
+        android:layout_width="336dp"
+        android:layout_height="291dp"
+        android:layout_marginBottom="324dp"
+        android:layout_marginEnd="92dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/login" />
+
+    <ImageButton
+        android:id="@+id/medicineButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/emsButton"
+        app:layout_constraintEnd_toStartOf="@+id/speechButton"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/medical" />
+
+    <ImageButton
+        android:id="@+id/speechButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/foodButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/voice" />
+
+    <ImageButton
+        android:id="@+id/emsButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/easyButton"
+        app:layout_constraintEnd_toStartOf="@+id/foodButton"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ambulance" />
+
+    <ImageButton
+        android:id="@+id/easyButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/actButton"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sport" />
+
+    <ImageButton
+        android:id="@+id/foodButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/actButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/cooking" />
+
+    <ImageButton
+        android:id="@+id/actButton"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/activity" />
+
+    <TextView
+        android:id="@+id/dateview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/zxing_transparent"
+        android:text="08/23"
+        android:textColor="@android:color/white"
+        android:textSize="65sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
